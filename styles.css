@@ -1,1 +1,22 @@
 /* your code */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  border-left: none;
+  border-right: none;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: #c2f1bd;
+}
